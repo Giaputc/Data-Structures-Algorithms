@@ -1,0 +1,28 @@
+heuristics:
+A: 14
+C: 15
+D: 6
+F: 7
+H: 10
+E: 8
+I: 4
+G: 12
+K: 12
+B: 0
+
+graph:
+A: C(9), D(7), E(13), F(20)
+C: H(6)
+D: H(8), E(4)
+F: G(4), I(6)
+H: K(5)
+E: K(4), I(3)
+I: K(9), B(5)
+K: B(6)
+B: 
+
+start:
+A
+
+goal:
+B
